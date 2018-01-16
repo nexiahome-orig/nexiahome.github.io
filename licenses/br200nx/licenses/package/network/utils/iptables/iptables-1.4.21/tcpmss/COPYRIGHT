@@ -1,0 +1,5 @@
+/* Shared library add-on to iptables to add TCPMSS target support.
+ *
+ * Copyright (c) 2000 Marc Boucher
+*/
+

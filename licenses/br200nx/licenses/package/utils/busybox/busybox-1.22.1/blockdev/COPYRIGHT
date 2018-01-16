@@ -1,0 +1,8 @@
+/*
+ * blockdev implementation for busybox
+ *
+ * Copyright (C) 2010 Sergey Naumov <sknaumov@gmail.com>
+ *
+ * Licensed under GPLv2, see file LICENSE in this source tree.
+ */
+

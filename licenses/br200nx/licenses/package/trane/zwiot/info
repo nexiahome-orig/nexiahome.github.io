@@ -1,0 +1,12 @@
+PACKAGE Makefile: "package/trane/zwiot/Makefile"
+TARBALL: "NONE"
+PKG_NAME:=zwiot
+PKG_RELEASE:=1
+
+PKG_VERSION:=
+PKG_SOURCE:=
+PKG_SOURCE_URL:=
+PKG_LICENSE:=TRANE
+PKG_LICENSE_FILES:=LICENSE
+PKG_COPYRIGHT:=./licenses/package/trane/zwiot/COPYRIGHT
+

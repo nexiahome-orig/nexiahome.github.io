@@ -1,0 +1,11 @@
+PACKAGE Makefile:
+TARBALL:
+PKG_IGNORE:=y
+PKG_NAME:=busybox-1.22.1
+PKG_RELEASE:=
+PKG_VERSION:=1.22.1
+PKG_SOURCE:=
+PKG_SOURCE_URL:=
+PKG_LICENSE:=
+PKG_LICENSE_FILES:=
+PKG_COPYRIGHT:=./licenses/package/utils/busybox/busybox-1.22.1/archival/libarchive/bz/COPYRIGHT

@@ -1,0 +1,44 @@
+/* auditsc.c -- System-call auditing support
+ * Handles all system-call specific auditing features.
+ *
+ * Copyright 2003-2004 Red Hat Inc., Durham, North Carolina.
+ * Copyright 2005 Hewlett-Packard Development Company, L.P.
+ * Copyright (C) 2005, 2006 IBM Corporation
+ * All Rights Reserved.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ *
+ * Written by Rickard E. (Rik) Faith <faith@redhat.com>
+ *
+ * Many of the ideas implemented here are from Stephen C. Tweedie,
+ * especially the idea of avoiding a copy by using getname.
+ *
+ * The method for actual interception of syscall entry and exit (not in
+ * this file -- see entry.S) is based on a GPL'd patch written by
+ * okir@suse.de and Copyright 2003 SuSE Linux AG.
+ *
+ * POSIX message queue support added by George Wilson <ltcgcw@us.ibm.com>,
+ * 2006.
+ *
+ * The support of additional filter rules compares (>, <, >=, <=) was
+ * added by Dustin Kirkland <dustin.kirkland@us.ibm.com>, 2005.
+ *
+ * Modified by Amy Griffis <amy.griffis@hp.com> to collect additional
+ * filesystem information.
+ *
+ * Subject and object context labeling support added by <danjones@us.ibm.com>
+ * and <dustin.kirkland@us.ibm.com> for LSPP certification compliance.
+ */
+

@@ -1,0 +1,10 @@
+PACKAGE Makefile: "package/network/services/odhcpd/Makefile"
+TARBALL: "odhcpd-2014-09-25.tar.bz2"
+PKG_NAME:=odhcpd
+PKG_VERSION:=2014-09-25
+PKG_RELEASE=$(PKG_SOURCE_VERSION)
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE_URL:=git://github.com/sbyx/odhcpd.git
+PKG_LICENSE:=GPLv2
+PKG_LICENSE_FILES:=COPYING
+PKG_IGNORE:=y

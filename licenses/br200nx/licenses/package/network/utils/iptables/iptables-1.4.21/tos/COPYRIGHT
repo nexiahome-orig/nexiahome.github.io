@@ -1,0 +1,7 @@
+/*
+ * Shared library add-on to iptables to add TOS target support
+ *
+ * Copyright © CC Computer Consultants GmbH, 2007
+ * Contact: Jan Engelhardt <jengelh@medozas.de>
+ */
+

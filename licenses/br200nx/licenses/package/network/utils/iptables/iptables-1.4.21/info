@@ -1,0 +1,11 @@
+PACKAGE Makefile: "package/network/utils/iptables/Makefile"
+TARBALL: "iptables-1.4.21.tar.bz2"
+PKG_NAME:=iptables
+PKG_VERSION:=1.4.21
+PKG_RELEASE:=1
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE_URL:=http://www.netfilter.org/projects/iptables/files \
+PKG_LICENSE:=GPLv2
+PKG_LICENSE_FILES:=COPYING
+PKG_COPYRIGHT:=./licenses/package/network/utils/iptables/iptables-1.4.21/bfp/COPYRIGHT ./licenses/package/network/utils/iptables/iptables-1.4.21/connmark/COPYRIGHT ./licenses/package/network/utils/iptables/iptables-1.4.21/connsecmark/COPYRIGHT ./licenses/package/network/utils/iptables/iptables-1.4.21/ct/COPYRIGHT ./licenses/package/network/utils/iptables/iptables-1.4.21/hm/COPYRIGHT ./licenses/package/network/utils/iptables/iptables-1.4.21/idletimer/COPYRIGHT ./licenses/package/network/utils/iptables/iptables-1.4.21/iptables/COPYRIGHT ./licenses/package/network/utils/iptables/iptables-1.4.21/libipq/COPYRIGHT ./licenses/package/network/utils/iptables/iptables-1.4.21/osf/COPYRIGHT ./licenses/package/network/utils/iptables/iptables-1.4.21/set/COPYRIGHT ./licenses/package/network/utils/iptables/iptables-1.4.21/string/COPYRIGHT ./licenses/package/network/utils/iptables/iptables-1.4.21/tcpmss/COPYRIGHT ./licenses/package/network/utils/iptables/iptables-1.4.21/tcpoptstrip/COPYRIGHT ./licenses/package/network/utils/iptables/iptables-1.4.21/tee/COPYRIGHT ./licenses/package/network/utils/iptables/iptables-1.4.21/tos/COPYRIGHT ./licenses/package/network/utils/iptables/iptables-1.4.21/tproxy/COPYRIGHT ./licenses/package/network/utils/iptables/iptables-1.4.21/xtoptions/COPYRIGHT 
+PKG_IGNORE:=

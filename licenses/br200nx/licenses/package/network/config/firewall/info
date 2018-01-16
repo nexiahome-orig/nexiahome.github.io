@@ -1,0 +1,10 @@
+PACKAGE Makefile: "package/network/config/firewall/Makefile"
+TARBALL: "firewall-2014-09-19-50e97c52e75bdfd325cf20d43b32d294ff84d92f.tar.gz"
+PKG_NAME:=firewall
+PKG_VERSION:=2014-09-19
+PKG_RELEASE:=2014-08-19
+PKG_SOURCE_URL:=git://nbd.name/firewall3.git
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
+PKG_LICENSE:=GPLv2
+PKG_LICENSE_FILES:=LICENSE
+PKG_COPYRIGHT:=./licenses/package/network/config/firewall/COPYRIGHT

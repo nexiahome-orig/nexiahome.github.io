@@ -1,0 +1,8 @@
+/*
+ * Mini rpm2cpio implementation for busybox
+ *
+ * Copyright (C) 2001 by Laurence Anderson
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+

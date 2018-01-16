@@ -1,0 +1,23 @@
+CONFIG_PACKAGE_libubox
+
+DESCRIPTION:= is missing
+
+PKG_NAME:=libubox
+PKG_VERSION:=2016-07-29
+PKG_MINOR:= is missing
+PKG_RELEASE=$(PKG_SOURCE_VERSION)
+
+PKG_SOURCE_PROTO:=git
+PKG_SOURCE_URL=git://git.openwrt.org/project/libubox.git
+PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
+PKG_SOURCE_VERSION:=290c64ef5b5c3e75be851594f269d6a9568e64e5
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
+
+PKG_LICENSE:=ISC
+PKG_LICENSE_FILES:= is missing
+
+DOWNLOAD LINK:=https://github.com/openwrt-mirror/openwrt/tree/master/package/libs/libubox
+
+LINK:=http://git.openwrt.org/project/libubox.git
+
+

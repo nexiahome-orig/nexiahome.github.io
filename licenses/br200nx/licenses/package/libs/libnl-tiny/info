@@ -1,0 +1,11 @@
+PACKAGE Makefile: "package/libs/libnl-tiny/Makefile"
+TARBALL: "NONE"
+PKG_NAME:=libnl-tiny
+PKG_VERSION:=0.1
+PKG_RELEASE:=3
+PKG_LICENSE:=GPLv2
+PKG_LICENSE_FILES:=LICENSE
+
+PKG_SOURCE:=
+PKG_SOURCE_URL:=
+PKG_COPYRIGHT:=./licenses/package/libs/libnl-tiny/COPYRIGHT

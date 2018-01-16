@@ -1,0 +1,12 @@
+/*
+ * adjtimex.c - read, and possibly modify, the Linux kernel `timex' variables.
+ *
+ * Originally written: October 1997
+ * Last hack: March 2001
+ * Copyright 1997, 2000, 2001 Larry Doolittle <LRDoolittle@lbl.gov>
+ *
+ * busyboxed 20 March 2001, Larry Doolittle <ldoolitt@recycle.lbl.gov>
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+

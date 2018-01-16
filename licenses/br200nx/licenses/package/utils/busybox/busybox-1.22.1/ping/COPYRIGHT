@@ -1,0 +1,26 @@
+/*
+ * Mini ping implementation for busybox
+ *
+ * Copyright (C) 1999 by Randolph Chung <tausq@debian.org>
+ *
+ * Adapted from the ping in netkit-base 0.10:
+ * Copyright (c) 1989 The Regents of the University of California.
+ * All rights reserved.
+ *
+ * This code is derived from software contributed to Berkeley by
+ * Mike Muuss.
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+/* from ping6.c:
+ * Copyright (C) 1999 by Randolph Chung <tausq@debian.org>
+ *
+ * This version of ping is adapted from the ping in netkit-base 0.10,
+ * which is:
+ *
+ * Original copyright notice is retained at the end of this file.
+ *
+ * This version is an adaptation of ping.c from busybox.
+ * The code was modified by Bart Visscher <magick@linux-fan.com>
+ */
+

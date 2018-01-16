@@ -1,0 +1,8 @@
+/*
+ * Mini fsync implementation for busybox
+ *
+ * Copyright (C) 2008 Nokia Corporation. All rights reserved.
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+

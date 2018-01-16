@@ -1,0 +1,16 @@
+/*
+ * unix_io.c --- This is the Unix (well, really POSIX) implementation
+ *      of the I/O manager.
+ *
+ * Implements a one-block write-through cache.
+ *
+ * Includes support for Windows NT support under Cygwin.
+ *
+ * Copyright (C) 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001,
+ *      2002 by Theodore Ts'o.
+ *
+ * %Begin-Header%
+ * This file may be redistributed under the terms of the GNU Public
+ * License.
+ * %End-Header%
+ */

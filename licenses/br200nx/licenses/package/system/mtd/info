@@ -1,0 +1,12 @@
+PACKAGE Makefile: "package/system/mtd/Makefile"
+TARBALL: "NONE"
+PKG_NAME:=mtd
+PKG_RELEASE:=20
+PKG_BUILD_DIR := $(KERNEL_BUILD_DIR)/$(PKG_NAME)
+PKG_LICENSE:=GPLv2
+PKG_LICENSE_FILES:=LICENSE
+PKG_VERSION:=1.4.5
+PKG_SOURCE:=
+PKG_SOURCE_URL:=
+PKG_COPYRIGHT:=./licenses/package/system/mtd/check/COPYRIGHT ./licenses/package/system/mtd/compr/COPYRIGHT ./licenses/package/system/mtd/debug/COPYRIGHT ./licenses/package/system/mtd/dump/COPYRIGHT ./licenses/package/system/mtd/erase/COPYRIGHT ./licenses/package/system/mtd/lzo/COPYRIGHT ./licenses/package/system/mtd/nand/COPYRIGHT ./licenses/package/system/mtd/reader/COPYRIGHT ./licenses/package/system/mtd/rfd/COPYRIGHT ./licenses/package/system/mtd/rtime/COPYRIGHT ./licenses/package/system/mtd/tool/COPYRIGHT ./licenses/package/system/mtd/write/COPYRIGHT
+PKG_IGNORE:=

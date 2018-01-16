@@ -1,0 +1,8 @@
+/*
+ * linux/kernel/itimer.c
+ *
+ * Copyright (C) 1992 Darren Senn
+ */
+
+/* These are all the functions necessary to implement itimers */
+

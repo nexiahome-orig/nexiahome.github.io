@@ -1,0 +1,10 @@
+/*
+ * llseek.c -- stub calling the llseek system call
+ *
+ * Copyright (C) 1994, 1995, 1996, 1997 Theodore Ts'o.
+ *
+ * %Begin-Header%
+ * This file may be redistributed under the terms of the
+ * GNU Lesser General Public License.
+ * %End-Header%
+ */

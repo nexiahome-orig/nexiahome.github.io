@@ -1,0 +1,17 @@
+/*
+ * Gzip implementation for busybox
+ *
+ * Based on GNU gzip Copyright (C) 1992-1993 Jean-loup Gailly.
+ *
+ * Originally adjusted for busybox by Charles P. Wright <cpw@unix.asb.com>
+ * "this is a stripped down version of gzip I put into busybox, it does
+ * only standard in to standard out with -9 compression.  It also requires
+ * the zcat module for some important functions."
+ *
+ * Adjusted further by Erik Andersen <andersen@codepoet.org> to support
+ * files as well as stdin/stdout, and to generally behave itself wrt
+ * command line handling.
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+

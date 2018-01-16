@@ -1,0 +1,20 @@
+/*
+ *  nandwrite.c
+ *
+ *  Copyright (C) 2000 Steven J. Hill (sjhill@realitydiluted.com)
+ *                2003 Thomas Gleixner (tglx@linutronix.de)
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation.
+ *
+ * Overview:
+ *   This utility writes a binary image directly to a NAND flash
+ *   chip or NAND chips contained in DoC devices. This is the
+ *   "inverse operation" of nanddump.
+ *
+ * tglx: Major rewrite to handle bad blocks, write data with or without ECC
+ *       write oob data only on request
+ *
+ * Bug/ToDo:
+ */

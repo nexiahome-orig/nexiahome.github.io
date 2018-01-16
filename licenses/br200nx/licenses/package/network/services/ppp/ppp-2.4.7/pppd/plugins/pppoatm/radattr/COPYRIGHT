@@ -1,0 +1,16 @@
+/***********************************************************************
+*
+* radattr.c
+*
+* A plugin which is stacked on top of radius.so.  This plugin writes
+* all RADIUS attributes from the server's authentication confirmation
+* into /var/run/radattr.pppN.  These attributes are available for
+* consumption by /etc/ppp/ip-{up,down} scripts.
+*
+* Copyright (C) 2002 Roaring Penguin Software Inc.
+*
+* This plugin may be distributed according to the terms of the GNU
+* General Public License, version 2 or (at your option) any later version.
+*
+***********************************************************************/
+

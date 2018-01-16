@@ -1,0 +1,34 @@
+/*
+ *  Kernel Probes (KProbes)
+ *  kernel/kprobes.c
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+ *
+ * Copyright (C) IBM Corporation, 2002, 2004
+ *
+ * 2002-Oct     Created by Vamsi Krishna S <vamsi_krishna@in.ibm.com> Kernel
+ *              Probes initial implementation (includes suggestions from
+ *              Rusty Russell).
+ * 2004-Aug     Updated by Prasanna S Panchamukhi <prasanna@in.ibm.com> with
+ *              hlists and exceptions notifier as suggested by Andi Kleen.
+ * 2004-July    Suparna Bhattacharya <suparna@in.ibm.com> added jumper probes
+ *              interface to access function arguments.
+ * 2004-Sep     Prasanna S Panchamukhi <prasanna@in.ibm.com> Changed Kprobes
+ *              exceptions notifier to be first on the priority list.
+ * 2005-May     Hien Nguyen <hien@us.ibm.com>, Jim Keniston
+ *              <jkenisto@us.ibm.com> and Prasanna S Panchamukhi
+ *              <prasanna@in.ibm.com> added function-return probes.
+ */
+

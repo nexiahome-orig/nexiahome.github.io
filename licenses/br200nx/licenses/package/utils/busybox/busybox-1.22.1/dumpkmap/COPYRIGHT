@@ -1,0 +1,9 @@
+/*
+ * Mini dumpkmap implementation for busybox
+ *
+ * Copyright (C) Arne Bernin <arne@matrix.loopback.org>
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ *
+ */
+

@@ -1,0 +1,25 @@
+/*
+ *  kernel/cpuset.c
+ *
+ *  Processor and Memory placement constraints for sets of tasks.
+ *
+ *  Copyright (C) 2003 BULL SA.
+ *  Copyright (C) 2004-2007 Silicon Graphics, Inc.
+ *  Copyright (C) 2006 Google, Inc
+ *
+ *  Portions derived from Patrick Mochel's sysfs code.
+ *  sysfs is Copyright (c) 2001-3 Patrick Mochel
+ *
+ *  2003-10-10 Written by Simon Derr.
+ *  2003-10-22 Updates by Stephen Hemminger.
+ *  2004 May-July Rework by Paul Jackson.
+ *  2006 Rework by Paul Menage to use generic cgroups
+ *  2008 Rework of the scheduler domains and CPU hotplug handling
+ *       by Max Krasnyansky
+ *
+ *  This file is subject to the terms and conditions of the GNU General Public
+ *  License.  See the file COPYING in the main directory of the Linux
+ *  distribution for more details.
+ */
+
+

@@ -1,0 +1,11 @@
+/*
+ * crond -d[#] -c <crondir> -f -b
+ *
+ * run as root, but NOT setuid root
+ *
+ * Copyright 1994 Matthew Dillon (dillon@apollo.west.oic.com)
+ * (version 2.3.2)
+ * Vladimir Oleynik <dzo@simtreas.ru> (C) 2002
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */

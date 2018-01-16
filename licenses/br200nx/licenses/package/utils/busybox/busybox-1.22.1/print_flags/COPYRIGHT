@@ -1,0 +1,7 @@
+/* Print string that matches bit masked flags
+ *
+ * Copyright (C) 2008 Natanael Copa <natanael.copa@gmail.com>
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+

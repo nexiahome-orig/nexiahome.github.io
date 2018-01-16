@@ -1,0 +1,19 @@
+CONFIG_PACKAGE_zlib
+
+DESCRIPTION:=Library implementing the deflate compression method
+
+PKG_NAME:=zlib
+PKG_VERSION:=1.2.8
+PKG_MINOR:= is missing
+PKG_RELEASE:=1
+
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=http://www.zlib.net @SF/libpng
+
+PKG_LICENSE:=ZLIB
+PKG_LICENSE_FILES:=README
+
+DOWNLOAD LINK:=https://zlib.net/fossils/zlib-1.2.8.tar.gz
+
+LINK:=https://zlib.net
+

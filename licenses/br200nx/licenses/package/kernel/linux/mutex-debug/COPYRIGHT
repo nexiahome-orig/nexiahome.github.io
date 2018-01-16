@@ -1,0 +1,15 @@
+/*
+ * kernel/mutex-debug.c
+ *
+ * Debugging code for mutexes
+ *
+ * Started by Ingo Molnar:
+ *
+ *  Copyright (C) 2004, 2005, 2006 Red Hat, Inc., Ingo Molnar <mingo@redhat.com>
+ *
+ * lock debugging, locking tree, deadlock detection started by:
+ *
+ *  Copyright (C) 2004, LynuxWorks, Inc., Igor Manyilov, Bill Huey
+ *  Released under the General Public License (GPL).
+ */
+

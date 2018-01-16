@@ -1,0 +1,10 @@
+PACKAGE Makefile:
+TARBALL:
+PKG_NAME:=gdb.sim.ppc
+PKG_RELEASE:=
+PKG_VERSION:=
+PKG_SOURCE:=
+PKG_SOURCE_URL:=
+PKG_LICENSE:=
+PKG_LICENSE_FILES:=
+PKG_COPYRIGHT:=./licenses/package/devel/gdb/gdb-7.5/sim/ppc/COPYRIGHT

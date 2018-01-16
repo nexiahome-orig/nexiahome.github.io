@@ -1,0 +1,19 @@
+CONFIG_PACKAGE_dropbear
+
+DESCRIPTION:=A small SSH2 server/client designed for small memory environments.
+
+PKG_NAME:=dropbear
+PKG_VERSION:=2014.63
+PKG_RELEASE:=2
+
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE_URL:= \
+        http://matt.ucc.asn.au/dropbear/releases/ \
+        https://dropbear.nl/mirror/releases/
+
+PKG_LICENSE:=MIT
+PKG_LICENSE_FILES:=LICENSE libtomcrypt/LICENSE libtommath/LICENSE
+
+DOWNLOAD LINK:=https://matt.ucc.asn.au/dropbear/releases/dropbear-2014.63.tar.bz2
+
+LINK:=

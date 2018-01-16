@@ -1,0 +1,19 @@
+CONFIG_PACKAGE_libnl-tiny
+
+DESCRIPTION:=This package contains a stripped down version of libnl
+
+PKG_NAME:=libnl-tiny
+PKG_VERSION:=0.1
+PKG_MINOR:= is missing
+PKG_RELEASE:=3
+
+PKG_SOURCE:= is missing
+PKG_SOURCE_URL:= is missing
+
+PKG_LICENSE:=GPLv2 LGPLv2.1
+PKG_LICENSE_FILES:= is missing
+
+DOWNLOAD LINK:=https:
+
+LINK:=https://github.com/sabotage-linux/libnl-tiny
+

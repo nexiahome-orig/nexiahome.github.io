@@ -1,0 +1,23 @@
+CONFIG_PACKAGE_libreadline
+
+DESCRIPTION:=The Readline library provides a set of functions for use by applications
+        that allow users to edit command lines as they are typed in. Both Emacs
+        and vi editing modes are available. The Readline library includes
+        additional functions to maintain a list of previously-entered command
+        lines, to recall and perhaps reedit those lines, and perform csh-like
+        history expansion on previous commands.
+
+PKG_NAME:=readline
+PKG_VERSION:=6.2
+PKG_MINOR:= is missing
+PKG_RELEASE:=1
+
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=@GNU/readline
+
+PKG_LICENSE:=GPLv3
+PKG_LICENSE_FILES:=COPYING
+
+DOWNLOAD LINK:=https://ftp.gnu.org/gnu/readline/readline-6.2.tar.gz
+
+LINK:=https://cnswww.cns.cwru.edu/php/chet/readline/rltop.html

@@ -1,0 +1,10 @@
+PACKAGE Makefile: "package/system/fstools/Makefile"
+TARBALL: "fstools-2014-06-22-e0430f5c62f367e5a8e02755412977b02c3fc45e.tar.gz"
+PKG_NAME:=fstools
+PKG_VERSION:=2014-06-22
+PKG_RELEASE:=e0430f5c62f367e5a8e02755412977b02c3fc45e
+PKG_SOURCE_URL:=git://nbd.name/fstools.git
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
+PKG_LICENSE:=GPLv2
+PKG_LICENSE_FILES:=LICENSE
+PKG_COPYRIGHT:=./licenses/package/system/fstools/COPYRIGHT

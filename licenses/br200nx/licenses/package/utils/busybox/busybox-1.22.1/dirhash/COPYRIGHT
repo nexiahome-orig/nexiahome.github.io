@@ -1,0 +1,12 @@
+/*
+ * dirhash.c -- Calculate the hash of a directory entry
+ *
+ * Copyright (c) 2001  Daniel Phillips
+ *
+ * Copyright (c) 2002 Theodore Ts'o.
+ *
+ * %Begin-Header%
+ * This file may be redistributed under the terms of the GNU Public
+ * License.
+ * %End-Header%
+ *

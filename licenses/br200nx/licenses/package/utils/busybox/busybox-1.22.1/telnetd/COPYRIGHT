@@ -1,0 +1,22 @@
+/*
+ * Simple telnet server
+ * Bjorn Wesen, Axis Communications AB (bjornw@axis.com)
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ *
+ * ---------------------------------------------------------------------------
+ * (C) Copyright 2000, Axis Communications AB, LUND, SWEDEN
+ ****************************************************************************
+ *
+ * The telnetd manpage says it all:
+ *
+ * Telnetd operates by allocating a pseudo-terminal device (see pty(4)) for
+ * a client, then creating a login process which has the slave side of the
+ * pseudo-terminal as stdin, stdout, and stderr. Telnetd manipulates the
+ * master side of the pseudo-terminal, implementing the telnet protocol and
+ * passing characters between the remote client and the login process.
+ *
+ * Vladimir Oleynik <dzo@simtreas.ru> 2001
+ * Set process group corrections, initial busybox port
+ */
+

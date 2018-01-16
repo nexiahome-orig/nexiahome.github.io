@@ -1,0 +1,8 @@
+/*
+ * volume_id - reads filesystem label and uuid
+ *
+ * Copyright (C) 2012 S-G Bergh <sgb@systemasis.org>
+ *
+ * Licensed under GPLv2, see file LICENSE in this source tree.
+ */
+

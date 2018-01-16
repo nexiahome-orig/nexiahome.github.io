@@ -1,0 +1,10 @@
+/*
+ * RFC3927 ZeroConf IPv4 Link-Local addressing
+ * (see <http://www.zeroconf.org/>)
+ *
+ * Copyright (C) 2003 by Arthur van Hoff (avh@strangeberry.com)
+ * Copyright (C) 2004 by David Brownell
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+

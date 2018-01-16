@@ -1,0 +1,10 @@
+PACKAGE Makefile:
+TARBALL:
+PKG_NAME:=mount
+PKG_RELEASE:=1
+PKG_VERSION:=2.24.0
+PKG_SOURCE:=
+PKG_SOURCE_URL:=
+PKG_LICENSE:=LGPLv2.1
+PKG_LICENSE_FILES:=
+PKG_COPYRIGHT:=./licenses/package/utils/util-linux/util-linux-2.24.1/libmount/COPYRIGHT

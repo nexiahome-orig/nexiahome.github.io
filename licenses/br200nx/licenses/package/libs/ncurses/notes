@@ -1,0 +1,20 @@
+CONFIG_PACKAGE_libncurses
+
+DESCRIPTION:= is missing 
+
+PKG_NAME:=ncurses
+PKG_VERSION:=5.9
+PKG_MINOR:= is missing
+PKG_RELEASE:=1
+
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=@GNU/ncurses
+
+PKG_LICENSE:=FREE
+PKG_LICENSE_FILES:=README
+
+DOWNLOAD LINK:=https://ftp.gnu.org/gnu/ncurses/ncurses-5.9.tar.gz
+
+LINK:=https://www.gnu.org/software/ncurses/
+
+

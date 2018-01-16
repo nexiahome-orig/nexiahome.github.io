@@ -1,0 +1,10 @@
+PACKAGE Makefile: "package/network/utils/curl/Makefile"
+TARBALL: "curl-7.38.0.tar.bz2"
+PKG_NAME:=curl
+PKG_VERSION:=7.38.0
+PKG_RELEASE:=1
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE_URL:=http://curl.haxx.se/download/ \
+PKG_LICENSE:=MIT
+PKG_LICENSE_FILES:=COPYING
+PKG_IGNORE:=y

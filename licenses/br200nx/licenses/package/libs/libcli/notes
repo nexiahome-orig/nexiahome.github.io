@@ -1,0 +1,22 @@
+CONFIG_PACKAGE_libcli
+
+DESCRIPTION:= Libcli provides a shared library for including a Cisco-like
+        command-line interface into other software. It's a telnet
+        interface which supports command-line editing, history,
+        authentication and callbacks for a user-definable function tree.
+
+PKG_NAME:=libcli
+PKG_VERSION:=1.9.4
+PKG_MINOR:= is missing
+PKG_RELEASE:=1
+
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=http://libcli.googlecode.com/files
+
+PKG_LICENSE:=FREE
+PKG_LICENSE_FILES:=README
+
+DOWNLOAD LINK:= is missing
+
+LINK:= is missing
+ 

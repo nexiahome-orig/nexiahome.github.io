@@ -1,0 +1,12 @@
+PACKAGE Makefile: "package/system/opkg/Makefile"
+TARBALL: "opkg-9c97d5ecd795709c8584e972bfdf3aee3a5b846d.tar.gz"
+PKG_NAME:=opkg
+PKG_VERSION:=9c97d5ecd795709c8584e972bfdf3aee3a5b846d
+PKG_RELEASE:=7
+PKG_SOURCE_URL:=http://git.yoctoproject.org/git/opkg
+PKG_SOURCE:=$(PKG_SOURCE_SUBDIR).tar.gz
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(BUILD_VARIANT)/$(PKG_NAME)-$(PKG_VERSION)
+PKG_LICENSE:=GPLv2
+PKG_LICENSE_FILES:=COPYING
+PKG_COPYRIGHT:=./licenses/package/system/opkg/COPYRIGHT
+PKG_IGNORE:=y

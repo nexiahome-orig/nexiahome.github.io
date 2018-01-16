@@ -1,0 +1,10 @@
+PACKAGE Makefile: "package/system/ubus/Makefile"
+TARBALL: "ubus-2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3.tar.gz"
+PKG_NAME:=ubus
+PKG_VERSION:=2014-09-17
+PKG_RELEASE:=4c4f35cf2230d70b9ddd87638ca911e8a563f2f3
+PKG_SOURCE_URL:=git://nbd.name/luci2/ubus.git
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
+PKG_LICENSE:=LGPLv2.1
+PKG_LICENSE_FILES:=LICENSE
+PKG_COPYRIGHT:=./licenses/package/system/ubus/COPYRIGHT

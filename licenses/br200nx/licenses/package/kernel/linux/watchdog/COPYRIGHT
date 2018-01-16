@@ -1,0 +1,10 @@
+/*
+ * Detect hard and soft lockups on a system
+ *
+ * started by Don Zickus, Copyright (C) 2010 Red Hat, Inc.
+ *
+ * Note: Most of this code is borrowed heavily from the original softlockup
+ * detector, so thanks to Ingo for the initial implementation.
+ * Some chunks also taken from the old x86-specific nmi watchdog code, thanks
+ * to those contributors as well.
+ */

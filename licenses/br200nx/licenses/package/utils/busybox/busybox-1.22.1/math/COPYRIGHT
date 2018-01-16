@@ -1,0 +1,49 @@
+/*
+ * Arithmetic code ripped out of ash shell for code sharing.
+ *
+ * This code is derived from software contributed to Berkeley by
+ * Kenneth Almquist.
+ *
+ * Original BSD copyright notice is retained at the end of this file.
+ *
+ * Copyright (c) 1989, 1991, 1993, 1994
+ *      The Regents of the University of California.  All rights reserved.
+ *
+ * Copyright (c) 1997-2005 Herbert Xu <herbert@gondor.apana.org.au>
+ * was re-ported from NetBSD and debianized.
+ *
+ * rewrite arith.y to micro stack based cryptic algorithm by
+ * Copyright (c) 2001 Aaron Lehmann <aaronl@vitelus.com>
+ *
+ * Modified by Paul Mundt <lethal@linux-sh.org> (c) 2004 to support
+ * dynamic variables.
+ *
+ * Modified by Vladimir Oleynik <dzo@simtreas.ru> (c) 2001-2005 to be
+ * used in busybox and size optimizations,
+ * rewrote arith (see notes to this), added locale support,
+ * rewrote dynamic variables.
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+/* Copyright (c) 2001 Aaron Lehmann <aaronl@vitelus.com>
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining
+ * a copy of this software and associated documentation files (the
+ * "Software"), to deal in the Software without restriction, including
+ * without limitation the rights to use, copy, modify, merge, publish,
+ * distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so, subject to
+ * the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ * IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ * CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+

@@ -1,0 +1,11 @@
+/*
+ * Mini unzip implementation for busybox
+ *
+ * Copyright (C) 2004 by Ed Clark
+ *
+ * Loosely based on original busybox unzip applet by Laurence Anderson.
+ * All options and features should work in this version.
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+

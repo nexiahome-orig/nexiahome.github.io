@@ -1,0 +1,13 @@
+PACKAGE Makefile: "package/trane/logging/Makefile"
+TARBALL: "NONE"
+PKG_NAME:=logging
+PKG_RELEASE:=2
+
+PKG_VERSION:=
+PKG_SOURCE:=
+PKG_SOURCE_URL:=
+PKG_LICENSE:=TRANE
+PKG_LICENSE_FILES:=LICENSE
+PKG_COPYRIGHT:=./licenses/package/trane/logging/COPYRIGHT
+
+

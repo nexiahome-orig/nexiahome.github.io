@@ -1,0 +1,16 @@
+/*
+ * Context tracking: Probe on high level context boundaries such as kernel
+ * and userspace. This includes syscalls and exceptions entry/exit.
+ *
+ * This is used by RCU to remove its dependency on the timer tick while a CPU
+ * runs in userspace.
+ *
+ *  Started by Frederic Weisbecker:
+ *
+ * Copyright (C) 2012 Red Hat, Inc., Frederic Weisbecker <fweisbec@redhat.com>
+ *
+ * Many thanks to Gilad Ben-Yossef, Paul McKenney, Ingo Molnar, Andrew Morton,
+ * Steven Rostedt, Peter Zijlstra for suggestions and improvements.
+ *
+ */
+

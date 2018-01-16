@@ -1,0 +1,23 @@
+/* Shared library add-on to iptables to add string matching support. 
+ * 
+ * Copyright (C) 2000 Emmanuel Roger  <winfield@freegates.be>
+ *
+ * 2005-08-05 Pablo Neira Ayuso <pablo@eurodev.net>
+ *      - reimplemented to use new string matching iptables match
+ *      - add functionality to match packets by using window offsets
+ *      - add functionality to select the string matching algorithm
+ *
+ * ChangeLog
+ *     29.12.2003: Michael Rash <mbr@cipherdyne.org>
+ *             Fixed iptables save/restore for ascii strings
+ *             that contain space chars, and hex strings that
+ *             contain embedded NULL chars.  Updated to print
+ *             strings in hex mode if any non-printable char
+ *             is contained within the string.
+ *
+ *     27.01.2001: Gianni Tedesco <gianni@ecsc.co.uk>
+ *             Changed --tos to --string in save(). Also
+ *             updated to work with slightly modified
+ *             ipt_string_info.
+ */
+

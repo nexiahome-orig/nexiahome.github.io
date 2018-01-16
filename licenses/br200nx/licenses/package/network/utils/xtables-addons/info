@@ -1,0 +1,10 @@
+PACKAGE Makefile: "package/network/utils/xtables-addons/Makefile"
+TARBALL:= "xtables-addons-2.3.1.45.tar.xz"
+PKG_NAME:=xtables-addons
+PKG_VERSION:=2.3
+PKG_RELEASE:=1.45
+PKG_SOURCE:=xtables-addons-2.3.tar.xz
+PKG_SOURCE_URL:=@SF/xtables-addons
+PKG_LICENSE:=GPLv2
+PKG_LICENSE_FILES:=LICENSE
+PKG_COPYRIGHT:=./licenses/package/network/utils/xtables-addons/COPYRIGHT

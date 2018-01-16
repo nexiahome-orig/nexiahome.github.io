@@ -1,0 +1,11 @@
+PACKAGE Makefile: "package/libs/ncurses/Makefile"
+TARBALL: "ncurses-5.9.tar.gz"
+PKG_NAME:=ncurses
+PKG_VERSION:=5.9
+PKG_RELEASE:=1
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(BUILD_VARIANT)/$(PKG_NAME)-$(PKG_VERSION)
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=@GNU/ncurses
+PKG_LICENSE:=FREE
+PKG_LICENSE_FILES:=README
+PKG_COPYRIGHT:=./licenses/package/libs/ncurses/COPYRIGHT ./licenses/package/libs/ncurses/install/COPYRIGHT

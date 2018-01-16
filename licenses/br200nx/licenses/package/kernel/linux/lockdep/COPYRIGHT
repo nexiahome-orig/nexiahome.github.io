@@ -1,0 +1,27 @@
+/*
+ * kernel/lockdep.c
+ *
+ * Runtime locking correctness validator
+ *
+ * Started by Ingo Molnar:
+ *
+ *  Copyright (C) 2006,2007 Red Hat, Inc., Ingo Molnar <mingo@redhat.com>
+ *  Copyright (C) 2007 Red Hat, Inc., Peter Zijlstra <pzijlstr@redhat.com>
+ *
+ * this code maps all the lock dependencies as they occur in a live kernel
+ * and will warn about the following classes of locking bugs:
+ *
+ * - lock inversion scenarios
+ * - circular lock dependencies
+ * - hardirq/softirq safe/unsafe locking bugs
+ *
+ * Bugs are reported even if the current locking scenario does not cause
+ * any deadlock at this point.
+ *
+ * I.e. if anytime in the past two locks were taken in a different order,
+ * even if it happened for another task, even if those were different
+ * locks (but of the same class as this lock), this code will detect it.
+ *
+ * Thanks to Arjan van de Ven for coming up with the initial idea of
+ * mapping lock dependencies runtime.
+ */

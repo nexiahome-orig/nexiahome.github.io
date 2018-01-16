@@ -1,0 +1,9 @@
+/*
+ * RT-Mutex-tester: scriptable tester for rt mutexes
+ *
+ * started by Thomas Gleixner:
+ *
+ *  Copyright (C) 2006, Timesys Corp., Thomas Gleixner <tglx@timesys.com>
+ *
+ */
+

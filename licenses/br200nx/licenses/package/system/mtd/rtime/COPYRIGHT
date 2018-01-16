@@ -1,0 +1,20 @@
+/*
+ * JFFS2 -- Journalling Flash File System, Version 2.
+ *
+ * Copyright (C) 2001-2003 Red Hat, Inc.
+ *
+ * Created by Arjan van de Ven <arjanv@redhat.com>
+ *
+ * For licensing information, see the file 'LICENCE' in this directory.
+ *
+ * Very simple lz77-ish encoder.
+ *
+ * Theory of operation: Both encoder and decoder have a list of "last
+ * occurrences" for every possible source-value; after sending the
+ * first source-byte, the second byte indicated the "run" length of
+ * matches
+ *
+ * The algorithm is intended to only send "whole bytes", no bit-messing.
+ *
+ */
+

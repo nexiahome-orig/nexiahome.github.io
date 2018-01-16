@@ -1,0 +1,10 @@
+/*
+ * tac implementation for busybox
+ *
+ * Copyright (C) 2003  Yang Xiaopeng  <yxp at hanwang.com.cn>
+ * Copyright (C) 2007  Natanael Copa  <natanael.copa@gmail.com>
+ * Copyright (C) 2007  Tito Ragusa    <farmatito@tiscali.it>
+ *
+ * Licensed under GPLv2, see file LICENSE in this source tree.
+ *
+

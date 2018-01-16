@@ -1,0 +1,11 @@
+PACKAGE Makefile: "package/system/uci/Makefile"
+Missing source: package/system/uci/Makefile, dl/uci-2014-04-11$(if 1,.$(UCI_RELEASE)).tar.gz
+TARBALL: "uci-2014-04-11$(if 1,.$(UCI_RELEASE)).tar.gz"
+PKG_NAME:=uci
+PKG_VERSION:=2014-04-11.1
+PKG_RELEASE:=1
+PKG_SOURCE:=uci-2014-04-11.1.tar.gz
+PKG_SOURCE_URL:=git://nbd.name/uci.git
+PKG_LICENSE:=GPLv2
+PKG_LICENSE_FILES:=LICENSE
+PKG_COPYRIGHT:=./licenses/package/system/uci/COPYRIGHT

@@ -1,0 +1,10 @@
+PACKAGE Makefile: "package/libs/libubox/Makefile"
+TARBALL: "libubox-2016-07-29-290c64ef5b5c3e75be851594f269d6a9568e64e5.tar.gz"
+PKG_NAME:=libubox
+PKG_VERSION:=2016-07-29
+PKG_RELEASE:=2016-07-29
+PKG_SOURCE_URL:=git://git.openwrt.org/project/libubox.git
+PKG_SOURCE:=libubox-2016-07-29.tar.gz
+PKG_LICENSE:=ISC
+PKG_LICENSE_FILES:=LICENSE
+PKG_COPYRIGHT:=./licenses/package/libs/libubox/avl/COPYRIGHT ./licenses/package/libs/libubox/avlcmp/COPYRIGHT ./licenses/package/libs/libubox/list/COPYRIGHT ./licenses/package/libs/libubox/md5/COPYRIGHT ./licenses/package/libs/libubox/ulog/COPYRIGHT ./licenses/package/libs/libubox/usock/COPYRIGHT

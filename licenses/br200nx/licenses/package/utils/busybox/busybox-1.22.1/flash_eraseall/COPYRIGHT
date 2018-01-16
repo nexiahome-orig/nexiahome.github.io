@@ -1,0 +1,11 @@
+/* eraseall.c -- erase the whole of a MTD device
+ *
+ * Ported to busybox from mtd-utils.
+ *
+ * Copyright (C) 2000 Arcom Control System Ltd
+ *
+ * Renamed to flash_eraseall.c
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+

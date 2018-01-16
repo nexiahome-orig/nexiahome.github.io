@@ -1,0 +1,13 @@
+/*
+ * ext_attr.c --- extended attribute blocks
+ *
+ * Copyright (C) 2001 Andreas Gruenbacher, <a.gruenbacher@computer.org>
+ *
+ * Copyright (C) 2002 Theodore Ts'o.
+ *
+ * %Begin-Header%
+ * This file may be redistributed under the terms of the GNU Public
+ * License.
+ * %End-Header%
+ */
+

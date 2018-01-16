@@ -1,0 +1,14 @@
+/*
+ * kallsyms.c: in-kernel printing of symbolic oopses and stack traces.
+ *
+ * Rewritten and vastly simplified by Rusty Russell for in-kernel
+ * module loader:
+ *   Copyright 2002 Rusty Russell <rusty@rustcorp.com.au> IBM Corporation
+ *
+ * ChangeLog:
+ *
+ * (25/Aug/2004) Paulo Marques <pmarques@grupopie.com>
+ *      Changed the compression method from stem compression to "table lookup"
+ *      compression (see scripts/kallsyms.c for a more complete description)
+ */
+

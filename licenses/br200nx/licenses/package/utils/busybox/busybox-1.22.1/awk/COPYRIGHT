@@ -1,0 +1,8 @@
+/*
+ * awk implementation for busybox
+ *
+ * Copyright (C) 2002 by Dmitry Zakharov <dmit@crp.bank.gov.ua>
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+

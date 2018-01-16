@@ -1,0 +1,13 @@
+/*
+ * devname.c - get a dev by its device inode name
+ *
+ * Copyright (C) Andries Brouwer
+ * Copyright (C) 1999, 2000, 2001, 2002, 2003 Theodore Ts'o
+ * Copyright (C) 2001 Andreas Dilger
+ *
+ * %Begin-Header%
+ * This file may be redistributed under the terms of the
+ * GNU Lesser General Public License.
+ * %End-Header%
+ */
+

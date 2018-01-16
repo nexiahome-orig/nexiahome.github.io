@@ -1,0 +1,10 @@
+/*
+ * Copyright (C) 2013 Rolf Fokkens <rolf@fokkens.nl>
+ *
+ * This file may be redistributed under the terms of the
+ * GNU Lesser General Public License.
+ *
+ * Based on code fragments from bcache-tools by Kent Overstreet:
+ * http://evilpiepirate.org/git/bcache-tools.git
+ */
+

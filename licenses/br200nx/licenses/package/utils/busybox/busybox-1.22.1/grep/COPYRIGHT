@@ -1,0 +1,19 @@
+/*
+ * Mini grep implementation for busybox using libc regex.
+ *
+ * Copyright (C) 1999,2000,2001 by Lineo, inc. and Mark Whitley
+ * Copyright (C) 1999,2000,2001 by Mark Whitley <markw@codepoet.org>
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+/* BB_AUDIT SUSv3 defects - unsupported option -x "match whole line only". */
+/* BB_AUDIT GNU defects - always acts as -a.  */
+/* http://www.opengroup.org/onlinepubs/007904975/utilities/grep.html */
+/*
+ * 2004,2006 (C) Vladimir Oleynik <dzo@simtreas.ru> -
+ * correction "-e pattern1 -e pattern2" logic and more optimizations.
+ * precompiled regex
+ *
+ * (C) 2006 Jac Goudsmit added -o option
+ */
+

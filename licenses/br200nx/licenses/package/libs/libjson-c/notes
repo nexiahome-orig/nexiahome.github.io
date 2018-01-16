@@ -1,0 +1,19 @@
+CONFIG_PACKAGE_libjson-c
+
+DESCRIPTION:= This package contains a library for javascript object notation backends
+
+PKG_NAME:=json-c
+PKG_VERSION:=0.11
+PKG_MINOR:= is missing
+PKG_RELEASE:=2
+
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=https://s3.amazonaws.com/json-c_releases/releases/
+
+PKG_LICENSE:=MIT
+PKG_LICENSE_FILES:=COPYING
+
+DOWNLOAD LINK:= 
+
+LINK:=http://oss.metaparadigm.com/json-c/
+ 

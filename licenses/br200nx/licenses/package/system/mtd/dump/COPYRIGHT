@@ -1,0 +1,17 @@
+/*
+ *  dumpjffs2.c
+ *
+ *  Copyright (C) 2003 Thomas Gleixner (tglx@linutronix.de)
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation.
+ *
+ * Overview:
+ *   This utility dumps the contents of a binary JFFS2 image
+ *
+ *
+ * Bug/ToDo:
+ */
+
+	<enter description here>

@@ -1,0 +1,8 @@
+/*
+ * Mini hostid implementation for busybox
+ *
+ * Copyright (C) 2000  Edward Betts <edward@debian.org>.
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+

@@ -1,0 +1,20 @@
+/*
+ * A simple tftp client/server for busybox.
+ * Tries to follow RFC1350.
+ * Only "octet" mode supported.
+ * Optional blocksize negotiation (RFC2347 + RFC2348)
+ *
+ * Copyright (C) 2001 Magnus Damm <damm@opensource.se>
+ *
+ * Parts of the code based on:
+ *
+ * atftp:  Copyright (C) 2000 Jean-Pierre Lefebvre <helix@step.polymtl.ca>
+ *                        and Remi Lefebvre <remi@debian.org>
+ *
+ * utftp:  Copyright (C) 1999 Uwe Ohse <uwe@ohse.de>
+ *
+ * tftpd added by Denys Vlasenko & Vladimir Dronnikov
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+

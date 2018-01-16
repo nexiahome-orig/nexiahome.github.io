@@ -1,0 +1,15 @@
+/*
+ * This file is derived from various .h and .c files from the zlib-1.0.4
+ * distribution by Jean-loup Gailly and Mark Adler, with some additions
+ * by Paul Mackerras to aid in implementing Deflate compression and
+ * decompression for PPP packets.  See zlib.h for conditions of
+ * distribution and use.
+ *
+ * Changes that have been made include:
+ * - added Z_PACKET_FLUSH (see zlib.h for details)
+ * - added inflateIncomp and deflateOutputPending
+ * - allow strm->next_out to be NULL, meaning discard the output
+ *
+ * $Id: zlib.c,v 1.12 2002/04/02 13:34:03 dfs Exp $
+ */
+

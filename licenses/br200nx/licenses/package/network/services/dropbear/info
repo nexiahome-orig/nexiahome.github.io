@@ -1,0 +1,10 @@
+PACKAGE Makefile: "package/network/services/dropbear/Makefile"
+TARBALL: "dropbear-2014.63.tar.bz2"
+PKG_NAME:=dropbear
+PKG_VERSION:=2014.63
+PKG_RELEASE:=2
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE_URL:= \
+PKG_LICENSE:=MIT
+PKG_LICENSE_FILES:=LICENSE libtomcrypt/LICENSE libtommath/LICENSE
+PKG_COPYRIGHT:=./licenses/package/network/services/dropbear/algo/COPYRIGHT ./licenses/package/network/services/dropbear/atomicio/COPYRIGHT ./licenses/package/network/services/dropbear/cli-auth/COPYRIGHT ./licenses/package/network/services/dropbear/authpam/COPYRIGHT ./licenses/package/network/services/dropbear/authpubkey/COPYRIGHT ./licenses/package/network/services/dropbear/authpubkeyoptions/COPYRIGHT ./licenses/package/network/services/dropbear/compat/COPYRIGHT ./licenses/package/network/services/dropbear/curve/COPYRIGHT ./licenses/package/network/services/dropbear/fake/COPYRIGHT ./licenses/package/network/services/dropbear/install/COPYRIGHT ./licenses/package/network/services/dropbear/loginrec/COPYRIGHT ./licenses/package/network/services/dropbear/progressmeter/COPYRIGHT ./licenses/package/network/services/dropbear/scp/COPYRIGHT ./licenses/package/network/services/dropbear/scpmisc/COPYRIGHT

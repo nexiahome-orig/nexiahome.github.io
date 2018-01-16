@@ -1,0 +1,19 @@
+CONFIG_PACKAGE_libpcap
+
+DESCRIPTION:=This package contains a system-independent library for user-level network packet
+
+PKG_NAME:=libpcap
+PKG_VERSION:=1.5.3
+PKG_MINOR:= is missing
+PKG_RELEASE:=1
+
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=http://www.tcpdump.org/release/
+
+PKG_LICENSE:= is missing
+PKG_LICSENE_FILES:= is missing
+
+DOWNLOAD LINK:=http://http://www.us.tcpdump.org/release/libpcap-1.5.3.tar.gz
+
+LINK:=http://www.tcpdump.org
+

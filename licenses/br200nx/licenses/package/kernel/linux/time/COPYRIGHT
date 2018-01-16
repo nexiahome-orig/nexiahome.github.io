@@ -1,0 +1,9 @@
+ *  linux/kernel/time.c
+ *
+ *  Copyright (C) 1991, 1992  Linus Torvalds
+ *
+ *  This file contains the interface functions for the various
+ *  time related system calls: time, stime, gettimeofday, settimeofday,
+ *                             adjtime
+ */
+

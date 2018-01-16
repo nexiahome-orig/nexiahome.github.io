@@ -1,0 +1,9 @@
+/*
+ * pwdx implementation for busybox
+ *
+ * Copyright (c) 2004 Nicholas Miell
+ * ported from procps by Pere Orga <gotrunks@gmail.com> 2011
+ *
+ * Licensed under GPLv2, see file LICENSE in this source tree.
+ */
+

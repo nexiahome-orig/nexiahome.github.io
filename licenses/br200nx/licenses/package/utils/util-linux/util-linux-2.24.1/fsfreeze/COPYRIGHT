@@ -1,0 +1,12 @@
+/*
+ * fsfreeze.c -- Filesystem freeze/unfreeze IO for Linux
+ *
+ * Copyright (C) 2010 Hajime Taira <htaira@redhat.com>
+ *                    Masatake Yamato <yamato@redhat.com>
+ *
+ * This program is free software.  You can redistribute it and/or
+ * modify it under the terms of the GNU General Public License as
+ * published by the Free Software Foundation: either version 1 or
+ * (at your option) any later version.
+ */
+

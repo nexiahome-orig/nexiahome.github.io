@@ -1,0 +1,10 @@
+/*
+ * freeramdisk and fdflush implementations for busybox
+ *
+ * Copyright (C) 2000 and written by Emanuele Caratti <wiz@iol.it>
+ * Adjusted a bit by Erik Andersen <andersen@codepoet.org>
+ * Unified with fdflush by Tito Ragusa <farmatito@tiscali.it>
+ *
+ * Licensed under GPLv2, see file LICENSE in this source tree.
+ */
+

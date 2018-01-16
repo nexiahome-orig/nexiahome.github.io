@@ -1,0 +1,10 @@
+/*
+ * circular buffer syslog implementation for busybox
+ *
+ * Copyright (C) 2000 by Gennady Feldman <gfeldman@gena01.com>
+ *
+ * Maintainer: Gennady Feldman <gfeldman@gena01.com> as of Mar 12, 2001
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+

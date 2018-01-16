@@ -1,0 +1,18 @@
+/*
+ * Mini klogd implementation for busybox
+ *
+ * Copyright (C) 2001 by Gennady Feldman <gfeldman@gena01.com>.
+ * Changes: Made this a standalone busybox module which uses standalone
+ * syslog() client interface.
+ *
+ * Copyright (C) 1999-2004 by Erik Andersen <andersen@codepoet.org>
+ *
+ * Copyright (C) 2000 by Karl M. Hegbloom <karlheg@debian.org>
+ *
+ * "circular buffer" Copyright (C) 2000 by Gennady Feldman <gfeldman@gena01.com>
+ *
+ * Maintainer: Gennady Feldman <gfeldman@gena01.com> as of Mar 12, 2001
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+

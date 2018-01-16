@@ -1,0 +1,10 @@
+PACKAGE Makefile: "package/libs/libjson-c/Makefile"
+TARBALL: "json-c-0.11.tar.gz"
+PKG_NAME:=json-c
+PKG_VERSION:=0.11
+PKG_RELEASE:=2
+PKG_SOURCE:=json-c-0.11.tar.gz
+PKG_SOURCE_URL:=https://s3.amazonaws.com/json-c_releases/releases/
+PKG_LICENSE:=MIT
+PKG_LICENSE_FILES:=COPYING
+PKG_COPYRIGHT:=./licenses/package/libs/libjson-c/aclocal/COPYRIGHT ./licenses/package/libs/libjson-c/configguess/COPYRIGHT ./licenses/package/libs/libjson-c/confighwin32/COPYRIGHT ./licenses/package/libs/libjson-c/configlog/COPYRIGHT ./licenses/package/libs/libjson-c/configrpath/COPYRIGHT ./licenses/package/libs/libjson-c/configstatus/COPYRIGHT ./licenses/package/libs/libjson-c/configsub/COPYRIGHT ./licenses/package/libs/libjson-c/configure/COPYRIGHT ./licenses/package/libs/libjson-c/depcomp/COPYRIGHT ./licenses/package/libs/libjson-c/json_c_version/COPYRIGHT ./licenses/package/libs/libjson-c/jsonobjectiterator/COPYRIGHT ./licenses/package/libs/libjson-c/libtool/COPYRIGHT

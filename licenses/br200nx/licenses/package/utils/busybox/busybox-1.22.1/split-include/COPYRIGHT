@@ -1,0 +1,21 @@
+/*
+ * split-include.c
+ *
+ * Copyright abandoned, Michael Chastain, <mailto:mec@shout.net>.
+ * This is a C version of syncdep.pl by Werner Almesberger.
+ *
+ * This program takes autoconf.h as input and outputs a directory full
+ * of one-line include files, merging onto the old values.
+ *
+ * Think of the configuration options as key-value pairs.  Then there
+ * are five cases:
+ *
+ *    key      old value   new value   action
+ *
+ *    KEY-1    VALUE-1     VALUE-1     leave file alone
+ *    KEY-2    VALUE-2A    VALUE-2B    write VALUE-2B into file
+ *    KEY-3    -           VALUE-3     write VALUE-3  into file
+ *    KEY-4    VALUE-4     -           write an empty file
+ *    KEY-5    (empty)     -           leave old empty file alone
+ */
+

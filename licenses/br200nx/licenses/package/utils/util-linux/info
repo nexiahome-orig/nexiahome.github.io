@@ -1,0 +1,10 @@
+PACKAGE Makefile: "package/utils/util-linux/Makefile"
+TARBALL: "util-linux-2.24.1.tar.xz"
+PKG_NAME:=util-linux
+PKG_IGNORE:=y
+PKG_VERSION:=2.24.1
+PKG_RELEASE:=1
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
+PKG_SOURCE_URL:=@KERNEL/linux/utils/$(PKG_NAME)/v2.24
+PKG_LICENSE:=GPLv2
+PKG_LICENSE_FILES:=COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3

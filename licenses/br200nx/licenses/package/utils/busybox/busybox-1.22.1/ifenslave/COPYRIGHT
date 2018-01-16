@@ -1,0 +1,21 @@
+/* Mode: C;
+ *
+ * Mini ifenslave implementation for busybox
+ * Copyright (C) 2005 by Marc Leeman <marc.leeman@barco.com>
+ *
+ * ifenslave.c: Configure network interfaces for parallel routing.
+ *
+ *      This program controls the Linux implementation of running multiple
+ *      network interfaces in parallel.
+ *
+ * Author:      Donald Becker <becker@cesdis.gsfc.nasa.gov>
+ *              Copyright 1994-1996 Donald Becker
+ *
+ *              This program is free software; you can redistribute it
+ *              and/or modify it under the terms of the GNU General Public
+ *              License as published by the Free Software Foundation.
+ *
+ *      The author may be reached as becker@CESDIS.gsfc.nasa.gov, or C/O
+ *      Center of Excellence in Space Data and Information Sciences
+ *         Code 930.5, Goddard Space Flight Center, Greenbelt MD 20771
+

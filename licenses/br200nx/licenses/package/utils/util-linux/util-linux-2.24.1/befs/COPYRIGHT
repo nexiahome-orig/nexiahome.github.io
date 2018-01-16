@@ -1,0 +1,13 @@
+/*
+ * Copyright (C) 2010 Jeroen Oortwijn <oortwijn@gmail.com>
+ *
+ * Partly based on the Haiku BFS driver by
+ *     Axel Dörfler <axeld@pinc-software.de>
+ *
+ * Also inspired by the Linux BeFS driver by
+ *     Will Dyson <will_dyson@pobox.com>, et al.
+ *
+ * This file may be redistributed under the terms of the
+ * GNU Lesser General Public License.
+ */
+

@@ -1,0 +1,10 @@
+/*
+ * Copyright (C) 2009 by Bastian Friedrich <bastian.friedrich@collax.com>
+ *
+ * This file may be redistributed under the terms of the
+ * GNU Lesser General Public License.
+ *
+ * defines, structs taken from drbd source; file names represent drbd source
+ * files.
+ */
+

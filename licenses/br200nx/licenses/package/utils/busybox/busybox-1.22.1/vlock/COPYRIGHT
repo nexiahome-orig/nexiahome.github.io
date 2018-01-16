@@ -1,0 +1,8 @@
+/*
+ * vlock implementation for busybox
+ *
+ * Copyright (C) 2000 by spoon <spoon@ix.netcom.com>
+ * Written by spoon <spon@ix.netcom.com>
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */

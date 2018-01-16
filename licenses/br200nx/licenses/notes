@@ -1,0 +1,25 @@
+When the OpenWRT system is built, the primary input file is:
+<sdk>/.config
+
+During the initial build, the package Makefiles are parsed
+and a number of output files are written to `<sdk>/tmp`.
+
+There is one file in particular that lists all of the packages that
+are to be built.
+`<sdk>/tmp/info/.files-packageinfo-<number>`
+
+To create (and massage) a file that contains a list of all of the *available* packages
+that can be built (`available.packages`), the following command line can be executed
+from this (`licenses`) directory.
+
+outputdir=$PWD;pushd ../package; find . -type f -name Makefile | sed 's%^\./%%' | sed 's%/Makefile$%%' > $outputdir/available.packages;popd
+
+To create a file that contains a similarly formatted list of all
+configured packages, we can do this:
+
+cp ../tmp/info/.files-packageinfo-* configured.packages
+
+One can use vim to compare the two list files like this:
+
+vi -d configured.packages available.packages
+

@@ -1,0 +1,23 @@
+CONFIG_PACKAGE_libiw
+
+PKG_NAME:=wireless-tools
+PKG_VERSION:=29
+PKG_MINOR:=
+
+PKG_SOURCE:=wireless_tools.$(PKG_VERSION)$(PKG_MINOR).tar.gz
+PKG_SOURCE_URL:=http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux
+
+PKG_LICENSE is missing
+PKG_LICENSE_FILES is missing
+
+http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/wireless-tools.29.tar.gz
+
+From: http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux
+
+Found Wireless Tools link:
+https://hewlettpackard.github.io/wireless-tools/Tools.html
+
+Found download link:
+https://hewlettpackard.github.io/wireless-tools/wireless_tools.29.tar.gz
+
+Downloaded wireless_tools.29.tar.gz contains COPYING file, which is GPLv2

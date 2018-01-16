@@ -1,0 +1,15 @@
+/*
+ *  nanddump.c
+ *
+ *  Copyright (C) 2000 David Woodhouse (dwmw2@infradead.org)
+ *                     Steven J. Hill (sjhill@realitydiluted.com)
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation.
+ *
+ *  Overview:
+ *   This utility dumps the contents of raw NAND chips or NAND
+ *   chips contained in DoC devices.
+ */
+

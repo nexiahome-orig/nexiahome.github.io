@@ -1,0 +1,10 @@
+PACKAGE Makefile: "package/network/config/netifd/Makefile"
+TARBALL: "netifd-2014-09-08.1-46c569989f984226916fec28dd8ef152a664043e.tar.gz"
+PKG_NAME:=netifd
+PKG_VERSION:=2014-09-08.1
+PKG_RELEASE:=2014-09-08.1
+PKG_SOURCE_URL:=http://git.openwrt.org/project/netifd.git
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
+PKG_LICENSE:=GPLv2
+PKG_LICENSE_FILES:=LICENSE
+PKG_COPYRIGHT:=./licenses/package/network/config/netifd/ubus/COPYRIGHT ./licenses/package/network/config/netifd/systemlinux/COPYRIGHT

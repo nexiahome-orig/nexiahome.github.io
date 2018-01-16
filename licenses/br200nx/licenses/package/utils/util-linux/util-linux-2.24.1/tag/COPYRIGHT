@@ -1,0 +1,12 @@
+/*
+ * tag.c - allocation/initialization/free routines for tag structs
+ *
+ * Copyright (C) 2001 Andreas Dilger
+ * Copyright (C) 2003 Theodore Ts'o
+ *
+ * %Begin-Header%
+ * This file may be redistributed under the terms of the
+ * GNU Lesser General Public License.
+ * %End-Header%
+ */
+

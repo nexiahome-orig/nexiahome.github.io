@@ -1,0 +1,22 @@
+CONFIG_PACKAGE_curl
+
+DESCRIPTION:=
+
+PKG_NAME:=curl
+PKG_VERSION:=7.38.0
+PKG_RELEASE:=1
+
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE_URL:=http://curl.haxx.se/download/ \
+        http://www.mirrorspace.org/curl/ \
+        ftp://ftp.sunet.se/pub/www/utilities/curl/ \
+        ftp://ftp.planetmirror.com/pub/curl/ \
+        http://www.mirrormonster.com/curl/download/ \
+        http://curl.mirrors.cyberservers.net/download/
+
+PKG_LICENSE:=MIT
+PKG_LICENSE_FILES:=COPYING
+
+DOWNLOAD LINK:=https://curl.haxx.se/download/curl-7.38.0.tar.gz
+
+

@@ -1,0 +1,11 @@
+PACKAGE Makefile:
+TARBALL:
+PKG_NAME:=dnsmasq
+PKG_RELEASE:=
+PKG_VERSION:=
+PKG_IGNORE:=y
+PKG_SOURCE:=
+PKG_SOURCE_URL:=
+PKG_LICENSE:=
+PKG_LICENSE_FILES:=
+PKG_COPYRIGHT:=./licenses/package/network/services/dnsmasq/dnsmasq-2.71/COPYRIGHT

@@ -1,0 +1,9 @@
+/*
+ * eject implementation for busybox
+ *
+ * Copyright (C) 2004  Peter Willis <psyphreak@phreaker.net>
+ * Copyright (C) 2005  Tito Ragusa <farmatito@tiscali.it>
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+

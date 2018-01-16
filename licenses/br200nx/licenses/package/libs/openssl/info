@@ -1,0 +1,10 @@
+PACKAGE Makefile: "package/libs/openssl/Makefile"
+TARBALL: "openssl-1.0.2j.tar.gz"
+PKG_NAME:=openssl
+PKG_VERSION:=1.0.2j
+PKG_RELEASE:=1
+PKG_SOURCE:=openssl-1.0.2j.tar.gz
+PKG_SOURCE_URL:=http://www.openssl.org/source/ \
+PKG_LICENSE:=OpenSSL
+PKG_LICENSE_FILES:=LICENSE
+PKG_COPYRIGHT:=./licenses/package/libs/openssl/eos/COPYRIGHT ./licenses/package/libs/openssl/eos2/COPYRIGHT

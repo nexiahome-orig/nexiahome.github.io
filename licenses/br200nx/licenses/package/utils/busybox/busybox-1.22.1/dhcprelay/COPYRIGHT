@@ -1,0 +1,11 @@
+/* Port to Busybox Copyright (C) 2006 Jesse Dutton <jessedutton@gmail.com>
+ *
+ * Licensed under GPLv2, see file LICENSE in this source tree.
+ *
+ * DHCP Relay for 'DHCPv4 Configuration of IPSec Tunnel Mode' support
+ * Copyright (C) 2002 Mario Strasser <mast@gmx.net>,
+ *                   Zuercher Hochschule Winterthur,
+ *                   Netbeat AG
+ * Upstream has GPL v2 or later
+ */
+

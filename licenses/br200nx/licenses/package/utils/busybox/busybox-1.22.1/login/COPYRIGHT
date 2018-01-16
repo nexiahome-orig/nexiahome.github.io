@@ -1,0 +1,10 @@
+/*
+ * issue.c: issue printing code
+ *
+ * Copyright (C) 2003 Bastian Blank <waldi@tuxbox.org>
+ *
+ * Optimize and correcting OCRNL by Vladimir Oleynik <dzo@simtreas.ru>
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+

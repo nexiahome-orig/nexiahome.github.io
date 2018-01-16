@@ -1,0 +1,10 @@
+PACKAGE Makefile: "package/utils/jsonfilter/Makefile"
+TARBALL: "jsonfilter-2014-06-19-cdc760c58077f44fc40adbbe41e1556a67c1b9a9.tar.gz"
+PKG_NAME:=jsonfilter
+PKG_VERSION:=2014-06-19
+PKG_RELEASE:=cdc760c58077f44fc40adbbe41e1556a67c1b9a9
+PKG_SOURCE_URL:=http://git.openwrt.org/project/jsonpath.git
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
+PKG_LICENSE:=Jo-Philipp Wich (openWRT)
+PKG_LICENSE_FILES:=LICENSE
+PKG_COPYRIGHT:=./licenses/package/utils/jsonfilter/COPYRIGHT

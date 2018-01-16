@@ -1,0 +1,8 @@
+/*
+ * Mini pgrep/pkill implementation for busybox
+ *
+ * Copyright (C) 2007 Loic Grenie <loic.grenie@gmail.com>
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+

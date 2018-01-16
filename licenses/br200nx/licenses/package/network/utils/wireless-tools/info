@@ -1,0 +1,11 @@
+PACKAGE Makefile: "package/network/utils/wireless-tools/Makefile"
+TARBALL: "wireless_tools.29.tar.gz"
+PKG_NAME:=wireless-tools
+PKG_VERSION:=29
+PKG_RELEASE:=5
+PKG_SOURCE:=wireless_tools.$(PKG_VERSION)$(PKG_MINOR).tar.gz
+PKG_SOURCE_URL:=http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux
+PKG_BUILD_DIR:=$(BUILD_DIR)/wireless_tools.$(PKG_VERSION)
+PKG_LICENSE:=GPLv2
+PKG_LICENSE_FILES:=COPYING
+PKG_IGNORE:=y

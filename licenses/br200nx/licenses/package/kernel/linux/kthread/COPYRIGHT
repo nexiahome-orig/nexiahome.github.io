@@ -1,0 +1,8 @@
+/* Kernel thread helper functions.
+ *   Copyright (C) 2004 IBM Corporation, Rusty Russell.
+ *
+ * Creation is done via kthreadd, so that we get a clean environment
+ * even if we're invoked from userspace (think modprobe, hotplug cpu,
+ * etc.).
+ */
+

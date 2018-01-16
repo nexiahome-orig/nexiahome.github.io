@@ -1,0 +1,18 @@
+/*
+ * RT-Mutexes: blocking mutual exclusion locks with PI support
+ *
+ * started by Ingo Molnar and Thomas Gleixner:
+ *
+ *  Copyright (C) 2004-2006 Red Hat, Inc., Ingo Molnar <mingo@redhat.com>
+ *  Copyright (C) 2006 Timesys Corp., Thomas Gleixner <tglx@timesys.com>
+ *
+ * This code is based on the rt.c implementation in the preempt-rt tree.
+ * Portions of said code are
+ *
+ *  Copyright (C) 2004  LynuxWorks, Inc., Igor Manyilov, Bill Huey
+ *  Copyright (C) 2006  Esben Nielsen
+ *  Copyright (C) 2006  Kihon Technologies Inc.,
+ *                      Steven Rostedt <rostedt@goodmis.org>
+ *
+ * See rt.c in preempt-rt for proper credits and further information
+ */

@@ -1,0 +1,10 @@
+PACKAGE Makefile: "package/libs/libcli/Makefile"
+TARBALL: "libcli-1.9.4.tar.gz"
+PKG_NAME:=libcli
+PKG_VERSION:=1.9.4
+PKG_RELEASE:=1
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=http://libcli.googlecode.com/files
+PKG_LICENSE:=LGPLv2.1
+PKG_LICENSE_FILES:=COPYING
+PKG_COPYRIGHT:=./licenses/package/libs/libcli/README

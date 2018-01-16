@@ -1,0 +1,26 @@
+# Output a system dependent set of variables, describing how to set the
+# run time search path of shared libraries in an executable.
+#
+#   Copyright 1996-2007 Free Software Foundation, Inc.
+#   Taken from GNU libtool, 2001
+#   Originally by Gordon Matzigkeit <gord@gnu.ai.mit.edu>, 1996
+#
+#   This file is free software; the Free Software Foundation gives
+#   unlimited permission to copy and/or distribute it, with or without
+#   modifications, as long as this notice is preserved.
+#
+# The first argument passed to this file is the canonical host specification,
+#    CPU_TYPE-MANUFACTURER-OPERATING_SYSTEM
+# or
+#    CPU_TYPE-MANUFACTURER-KERNEL-OPERATING_SYSTEM
+# The environment variables CC, GCC, LDFLAGS, LD, with_gnu_ld
+# should be set by the caller.
+#
+# The set of defined variables is at the end of this script.
+
+# Known limitations:
+# - On IRIX 6.5 with CC="cc", the run time search patch must not be longer
+#   than 256 bytes, otherwise the compiler driver will dump core. The only
+#   known workaround is to choose shorter directory names for the build
+#   directory and/or the installation directory.
+

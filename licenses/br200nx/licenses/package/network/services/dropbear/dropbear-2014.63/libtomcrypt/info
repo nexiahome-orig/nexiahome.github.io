@@ -1,0 +1,11 @@
+PACKAGE Makefile:
+TARBALL:
+PKG_NAME:=libtomcrypt
+PKG_RELEASE:=
+PKG_VERSION:=1.16
+PKG_SOURCE:=dropbear-2014.63.tar.bz2
+PKG_SOURCE_URL:=http://matt.ucc.asn.au/dropbear/releases
+PKG_LICENSE:=
+PKG_LICENSE_FILES:=
+PKG_COPYRIGHT:=./licenses/package/network/services/dropbear/dropbear-2014.63/libtomcrypt/COPYRIGHT
+PKG_IGNORE:=y

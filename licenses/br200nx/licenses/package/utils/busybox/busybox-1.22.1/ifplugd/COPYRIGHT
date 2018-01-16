@@ -1,0 +1,8 @@
+/*
+ * ifplugd for busybox, based on ifplugd 0.28 (written by Lennart Poettering).
+ *
+ * Copyright (C) 2009 Maksym Kryzhanovskyy <xmaks@email.cz>
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+

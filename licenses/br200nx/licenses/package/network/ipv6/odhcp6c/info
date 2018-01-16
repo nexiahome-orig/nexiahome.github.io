@@ -1,0 +1,10 @@
+PACKAGE Makefile: "package/network/ipv6/odhcp6c/Makefile"
+TARBALL: "odhcp6c-2014-12-10.tar.bz2"
+PKG_NAME:=odhcp6c
+PKG_VERSION:=2014-12-10
+PKG_RELEASE:=2014-12-10
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
+PKG_SOURCE_URL:=https://github.com/sbyx/odhcp6c.git
+PKG_LICENSE:=GPL-2.0
+PKG_LICENSE_FILES:=LICENSE
+PKG_COPYRIGHT:=./licenses/package/network/ipv6/odhcp6c/md5/COPYRIGHT ./licenses/package/network/ipv6/odhcp6c/ra/COPYRIGHT

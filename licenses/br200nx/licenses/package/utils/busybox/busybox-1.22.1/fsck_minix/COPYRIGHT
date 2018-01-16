@@ -1,0 +1,8 @@
+/*
+ * fsck.c - a file system consistency checker for Linux.
+ *
+ * (C) 1991, 1992 Linus Torvalds.
+ *
+ * Licensed under GPLv2, see file LICENSE in this source tree.
+ */
+

@@ -1,0 +1,11 @@
+PACKAGE Makefile: "package/libs/libreadline/Makefile"
+TARBALL: "readline-6.2.tar.gz"
+PKG_NAME:=readline
+PKG_VERSION:=6.2
+PKG_RELEASE:=1
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=@GNU/readline
+PKG_LICENSE:=GPLv3
+PKG_IGNORE:=y
+PKG_LICENSE_FILES:=COPYING
+PKG_COPYRIGHT:=./licenses/package/libs/libreadline/COPYRIGHT

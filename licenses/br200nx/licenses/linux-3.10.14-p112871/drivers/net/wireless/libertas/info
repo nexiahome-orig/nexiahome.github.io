@@ -1,0 +1,13 @@
+PACKAGE Makefile: 
+TARBALL:
+PKG_NAME:=libertas
+PKG_RELEASE:=p4
+PKG_VERSION:=COMM-USB8388-318.p4
+PKG_SOURCE:=
+PKG_IGNORE:=y
+PKG_SOURCE_URL:=
+PKG_LICENSE:=GPLv2
+PKG_LICENSE_FILES:=
+PKG_COPYRIGHT:=./licenses/linux-3.10.14-p112871/drivers/net/wireless/libertas/cfg/COPYRIGHT ./licenses/linux-3.10.14-p112871/drivers/net/wireless/libertas/if_spi/COPYRIGHT ./licenses/linux-3.10.14-p112871/drivers/net/wireless/libertas/if_sdio/COPYRIGHT
+
+

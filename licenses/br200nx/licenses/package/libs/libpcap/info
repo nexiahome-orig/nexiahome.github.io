@@ -1,0 +1,10 @@
+PACKAGE Makefile: "package/libs/libpcap/Makefile"
+TARBALL: "libpcap-1.5.3.tar.gz"
+PKG_NAME:=libpcap
+PKG_VERSION:=1.5.3
+PKG_RELEASE:=1
+PKG_SOURCE:=$libpcap-1.5.3.tar.gz
+PKG_SOURCE_URL:=http://www.tcpdump.org/release/
+PKG_LICENSE:=GPLv2
+PKG_LICENSE_FILES:=LICENSE
+PKG_COPYRIGHT:=./licenses/package/libs/libpcap/arcnet/COPYRIGHT ./licenses/package/libs/libpcap/atmuni31/COPYRIGHT ./licenses/package/libs/libpcap/bt/COPYRIGHT ./licenses/package/libs/libpcap/can/COPYRIGHT ./licenses/package/libs/libpcap/fad-sita/COPYRIGHT ./licenses/package/libs/libpcap/fad-win32/COPYRIGHT ./licenses/package/libs/libpcap/get/COPYRIGHT ./licenses/package/libs/libpcap/ieee/COPYRIGHT ./licenses/package/libs/libpcap/install/COPYRIGHT ./licenses/package/libs/libpcap/linux/COPYRIGHT ./licenses/package/libs/libpcap/netfilter/COPYRIGHT ./licenses/package/libs/libpcap/nlpid/COPYRIGHT ./licenses/package/libs/libpcap/ppp/COPYRIGHT ./licenses/package/libs/libpcap/sita/COPYRIGHT ./licenses/package/libs/libpcap/tokdefs/COPYRIGHT ./licenses/package/libs/libpcap/win32/COPYRIGHT

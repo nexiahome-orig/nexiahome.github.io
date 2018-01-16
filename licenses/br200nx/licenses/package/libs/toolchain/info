@@ -1,0 +1,4 @@
+PACKAGE Makefile: "package/libs/toolchain/Makefile"
+TARBALL: "NONE"
+PKG_NAME:=toolchain
+PKG_RELEASE:=1

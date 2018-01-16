@@ -1,0 +1,17 @@
+/*
+ * Mini tr implementation for busybox
+ *
+ ** Copyright (c) 1987,1997, Prentice Hall   All rights reserved.
+ *
+ * The name of Prentice Hall may not be used to endorse or promote
+ * products derived from this software without specific prior
+ * written permission.
+ *
+ * Copyright (c) Michiel Huisjes
+ *
+ * This version of tr is adapted from Minix tr and was modified
+ * by Erik Andersen <andersen@codepoet.org> to be used in busybox.
+ *
+ * Licensed under GPLv2 or later, see file LICENSE in this source tree.
+ */
+

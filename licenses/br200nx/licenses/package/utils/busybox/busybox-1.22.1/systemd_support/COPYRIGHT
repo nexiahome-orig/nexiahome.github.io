@@ -1,0 +1,15 @@
+/*
+ * Command line editing.
+ *
+ * Copyright (c) 1986-2003 may safely be consumed by a BSD or GPL license.
+ * Written by:   Vladimir Oleynik <dzo@simtreas.ru>
+ *
+ * Used ideas:
+ *      Adam Rogoyski    <rogoyski@cs.utexas.edu>
+ *      Dave Cinege      <dcinege@psychosis.com>
+ *      Jakub Jelinek (c) 1995
+ *      Erik Andersen    <andersen@codepoet.org> (Majorly adjusted for busybox)
+ *
+ * This code is 'as is' with no warranty.
+ */
+

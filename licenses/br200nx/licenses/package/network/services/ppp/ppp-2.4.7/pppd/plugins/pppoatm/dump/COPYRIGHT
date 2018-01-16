@@ -1,0 +1,30 @@
+/*
+ * This file is derived from various .h and .c files from the zlib-0.95
+ * distribution by Jean-loup Gailly and Mark Adler, with some additions
+ * by Paul Mackerras to aid in implementing Deflate compression and
+ * decompression for PPP packets.  See zlib.h for conditions of
+ * distribution and use.
+ *
+ * Changes that have been made include:
+ * - changed functions not used outside this file to "local"
+ * - added minCompression parameter to deflateInit2
+ * - added Z_PACKET_FLUSH (see zlib.h for details)
+ * - added inflateIncomp
+ *
+ * $Id: zlib.c,v 1.2 1999/04/01 07:26:30 paulus Exp $
+ */
+
+
+/*+++++*/
+/* zutil.h -- internal interface and configuration of the compression library
+ * Copyright (C) 1995 Jean-loup Gailly.
+ * For conditions of distribution and use, see copyright notice in zlib.h
+ */
+
+/* WARNING: this file should *not* be used by applications. It is
+   part of the implementation of the compression library and is
+   subject to change. Applications should only use zlib.h.
+ */
+
+/* From: zutil.h,v 1.9 1995/05/03 17:27:12 jloup Exp */
+

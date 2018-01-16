@@ -1,0 +1,47 @@
+/*
+ *  Fast Userspace Mutexes (which I call "Futexes!").
+ *  (C) Rusty Russell, IBM 2002
+ *
+ *  Generalized futexes, futex requeueing, misc fixes by Ingo Molnar
+ *  (C) Copyright 2003 Red Hat Inc, All Rights Reserved
+ *
+ *  Removed page pinning, fix privately mapped COW pages and other cleanups
+ *  (C) Copyright 2003, 2004 Jamie Lokier
+ *
+ *  Robust futex support started by Ingo Molnar
+ *  (C) Copyright 2006 Red Hat Inc, All Rights Reserved
+ *  Thanks to Thomas Gleixner for suggestions, analysis and fixes.
+ *
+ *  PI-futex support started by Ingo Molnar and Thomas Gleixner
+ *  Copyright (C) 2006 Red Hat, Inc., Ingo Molnar <mingo@redhat.com>
+ *  Copyright (C) 2006 Timesys Corp., Thomas Gleixner <tglx@timesys.com>
+ *
+ *  PRIVATE futexes by Eric Dumazet
+ *  Copyright (C) 2007 Eric Dumazet <dada1@cosmosbay.com>
+ *
+ *  Requeue-PI support by Darren Hart <dvhltc@us.ibm.com>
+ *  Copyright (C) IBM Corporation, 2009
+ *  Thanks to Thomas Gleixner for conceptual design and careful reviews.
+ *
+ *  Thanks to Ben LaHaise for yelling "hashed waitqueues" loudly
+ *  enough at me, Linus for the original (flawed) idea, Matthew
+ *  Kirkwood for proof-of-concept implementation.
+ *
+ *  "The futexes are also cursed."
+ *  "But they come in a choice of three flavours!"
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program; if not, write to the Free Software
+ *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ */
+

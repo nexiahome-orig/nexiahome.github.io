@@ -1,0 +1,24 @@
+/*
+ * pfsck --- A generic, parallelizing front-end for the fsck program.
+ * It will automatically try to run fsck programs in parallel if the
+ * devices are on separate spindles.  It is based on the same ideas as
+ * the generic front end for fsck by David Engel and Fred van Kempen,
+ * but it has been completely rewritten from scratch to support
+ * parallel execution.
+ *
+ * Written by Theodore Ts'o, <tytso@mit.edu>
+ *
+ * Miquel van Smoorenburg (miquels@drinkel.ow.org) 20-Oct-1994:
+ *   o Changed -t fstype to behave like with mount when -A (all file
+ *     systems) or -M (like mount) is specified.
+ *   o fsck looks if it can find the fsck.type program to decide
+ *     if it should ignore the fs type. This way more fsck programs
+ *     can be added without changing this front-end.
+ *   o -R flag skip root file system.
+ *
+ * Copyright (C) 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000,
+ *      2001, 2002, 2003, 2004, 2005 by  Theodore Ts'o.
+ *
+ * Licensed under GPLv2, see file LICENSE in this source tree.
+ */
+
